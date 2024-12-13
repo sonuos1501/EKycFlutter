@@ -35,7 +35,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.example.ekycflutter
+        package: com.son.ekycflutter
         pluginClass: EkycflutterPlugin
       ios:
         pluginClass: EkycflutterPlugin
