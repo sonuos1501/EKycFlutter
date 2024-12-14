@@ -1,8 +1,4 @@
+library ekyc_flutter;
 
-import 'ekycflutter_platform_interface.dart';
-
-class Ekycflutter {
-  Future<String?> getPlatformVersion() {
-    return EkycflutterPlatform.instance.getPlatformVersion();
-  }
-}
+export 'ekycflutter_method_channel.dart';
+export 'ekycflutter_platform_interface.dart';

@@ -27,3 +27,9 @@ abstract class EkycflutterPlatform extends PlatformInterface {
     throw UnimplementedError('platformVersion() has not been implemented.');
   }
 }
+
+class Ekycflutter {
+  Future<String?> getPlatformVersion() {
+    return EkycflutterPlatform.instance.getPlatformVersion();
+  }
+}
