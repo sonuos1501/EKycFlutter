@@ -17,6 +17,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.1"
+  bridge_native:
+    dependency: transitive
+    description:
+      path: "../plugins/bridge_native"
+      relative: true
+    source: path
+    version: "1.0.0"
   characters:
     dependency: transitive
     description:
