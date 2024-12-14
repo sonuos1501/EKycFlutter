@@ -1,4 +1,4 @@
-group 'vn.techja.bridge'
+group 'vn.son.bridge'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -30,7 +30,7 @@ android {
     lintOptions {
         disable 'InvalidPackage'
     }
-    namespace 'vn.techja.bridge'
+    namespace 'vn.son.bridge'
 }
 
 dependencies {

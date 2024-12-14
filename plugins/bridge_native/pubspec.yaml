@@ -6,7 +6,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: vn.techja.bridge
+        package: vn.son.bridge
         pluginClass: Pigeon
       ios:
         pluginClass: FLTPigeon
