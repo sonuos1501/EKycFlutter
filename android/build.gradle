@@ -77,7 +77,7 @@ android {
         implementation 'com.google.mlkit:face-detection:16.1.6'
         implementation 'org.tensorflow:tensorflow-lite-gpu-delegate-plugin:+'
         implementation 'org.tensorflow:tensorflow-lite-gpu:+'
-        implementation project(path: ':opencv')
+//        implementation project(path: ':opencv')
     }
 
     testOptions {
