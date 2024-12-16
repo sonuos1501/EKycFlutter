@@ -1,16 +1,27 @@
 PODS:
+  - bridge_native (1.0.0):
+    - Flutter
+    - Reachability
   - ekycflutter (0.0.1):
     - Flutter
   - Flutter (1.0.0)
   - integration_test (0.0.1):
     - Flutter
+  - Reachability (3.7.6)
 
 DEPENDENCIES:
+  - bridge_native (from `.symlinks/plugins/bridge_native/ios`)
   - ekycflutter (from `.symlinks/plugins/ekycflutter/ios`)
   - Flutter (from `Flutter`)
   - integration_test (from `.symlinks/plugins/integration_test/ios`)
 
+SPEC REPOS:
+  trunk:
+    - Reachability
+
 EXTERNAL SOURCES:
+  bridge_native:
+    :path: ".symlinks/plugins/bridge_native/ios"
   ekycflutter:
     :path: ".symlinks/plugins/ekycflutter/ios"
   Flutter:
@@ -19,10 +30,12 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/integration_test/ios"
 
 SPEC CHECKSUMS:
+  bridge_native: 450edf72cad8c2fa086010f484305d8896c8e8b3
   ekycflutter: 89953750e93256939f64adc084e35625d9b36a8c
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
   integration_test: 13825b8a9334a850581300559b8839134b124670
+  Reachability: fd0ecd23705e2599e4cceeb943222ae02296cbc6
 
 PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
 
-COCOAPODS: 1.14.3
+COCOAPODS: 1.15.2
